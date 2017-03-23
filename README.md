@@ -19,6 +19,8 @@ Issues I ran into that I managed to solve:
 Solved by packaging the UE4PrereqSetup_x64.exe installer and executing it at setup time.
 * Gamelift doesn't allow you to change the firewall / access rules for a fleet after it's been created until it has fully started up and is in a ready status.
 This is a real pain when trying to debug a server that won't start. When you create your fleet, be sure to add the access rules for remote desktop, as well as the UE4 ports.
+Remote desktop port: 3389 TCP
+UE4 networking port: 7777 UDP and TCP
 
 
 
